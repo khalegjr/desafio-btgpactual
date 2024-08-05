@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      auto-index-creation: 'true'
+      authentication-database: admin
+      username: admin
+      database: btgpactualdb
+      password: '123'
+      port: '27017'
+      host: localhost
+  application:
+    name: orderms
